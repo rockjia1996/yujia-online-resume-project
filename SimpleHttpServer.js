@@ -76,7 +76,7 @@ class SimpleHttpServer {
     _cache.get(this)["/css/stylesheet.css"] = ResourceHandler.readFileFromPath(
       "./css/stylesheet.css"
     );
-    _cache.get(this)["/css/normalize.css"] = ResourceHander.readFileFromPath(
+    _cache.get(this)["/css/normalize.css"] = ResourceHandler.readFileFromPath(
       "./css/normalize.css"
     );
   }
