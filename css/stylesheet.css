@@ -1,3 +1,27 @@
-.heading {
-  color: blue;
+.header-container {
+  background: steelblue;
+}
+
+.profile-container {
+  background: grey;
+}
+
+.education-container {
+  background: yellow;
+}
+
+.skills-container {
+  background: orange;
+}
+
+.work-experience-container {
+  background: slategrey;
+}
+
+.personal-projects-container {
+  background: slateblue;
+}
+
+.footer-container {
+  background: steelblue;
 }

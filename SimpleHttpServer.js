@@ -40,6 +40,12 @@ class SimpleHttpServer {
         res.write(_cache.get(this)["/css/stylesheet.css"]);
         res.end();
       }
+
+      // normalize.css for standardizing styling
+      if (req.url === "/css/normalize.css") {
+        res.write(_cache.get(this)["/css/normalize.css"]);
+        res.end();
+      }
     });
     return server;
   }
@@ -69,6 +75,9 @@ class SimpleHttpServer {
       ResourceHandler.readFileFromPath("./html/resume.html");
     _cache.get(this)["/css/stylesheet.css"] = ResourceHandler.readFileFromPath(
       "./css/stylesheet.css"
+    );
+    _cache.get(this)["/css/normalize.css"] = ResourceHander.readFileFromPath(
+      "./css/normalize.css"
     );
   }
 }
