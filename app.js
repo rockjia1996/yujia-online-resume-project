@@ -1,9 +1,5 @@
-const SimpleHttpServer = require("./SimpleHttpServer");
-const ResourceHandler = require("./ResourceHandler");
+const ExpressSimpleHttpServer = require("./ExpressSimpleHttpServer");
 
-const content = ResourceHandler.readFileFromPath("./html/resume.html");
-const server = new SimpleHttpServer(8000);
+const server = new ExpressSimpleHttpServer(8000);
 
-console.log("Launching ... ");
-server.cacheData();
-server.launchServer();
+server.start();
