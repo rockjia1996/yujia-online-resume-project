@@ -69,6 +69,11 @@ class ExpressSimpleHttpServer {
   cacheDefaultData() {
     _cache.get(this)["/"] =
       ResourceHandler.readFileFromPath("./html/resume.html");
+
+    _cache.get(this)["/contact"] = ResourceHandler.readFileFromPath(
+      "./html/contact.html"
+    );
+
     _cache.get(this)["/css/stylesheet.css"] = ResourceHandler.readFileFromPath(
       "./css/stylesheet.css"
     );
@@ -81,6 +86,12 @@ class ExpressSimpleHttpServer {
   loadDefaultRoutes() {
     const homepage = (req, res, args) => {
       const data = _cache.get(this)["/"];
+      res.set("Content-Type", "text/html");
+      res.send(data);
+    };
+
+    const contact = (req, res, args) => {
+      const data = _cache.get(this)["/contact"];
       res.set("Content-Type", "text/html");
       res.send(data);
     };
@@ -98,6 +109,7 @@ class ExpressSimpleHttpServer {
     };
 
     this.defineRoute("/", homepage, {});
+    this.defineRoute("/contact", contact, {});
     this.defineRoute("/css/stylesheet.css", stylesheet, {});
     this.defineRoute("/css/normalize.css", normalize, {});
   }
