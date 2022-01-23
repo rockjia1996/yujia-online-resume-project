@@ -1,7 +1,10 @@
-const ExpressSimpleHttpServer = require("./ExpressSimpleHttpServer");
+const express = require("express");
+const server = express();
 
-const server = new ExpressSimpleHttpServer(8000);
+server.use(express.static("public"));
 
-server.cacheDefaultData();
-server.loadDefaultRoutes();
-server.start();
+server.get("/", (req, res) => {
+  res.sendFile(__dirname + "/public/html/resume.html");
+});
+
+server.listen(3000);
