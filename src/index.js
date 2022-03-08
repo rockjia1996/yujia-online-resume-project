@@ -5,6 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
 import "./stylesheets/normalize.css";
+import "./stylesheets/snap-layout.css";
 import "./stylesheets/home.css";
 import "./stylesheets/profile.css";
 import "./stylesheets/education.css";

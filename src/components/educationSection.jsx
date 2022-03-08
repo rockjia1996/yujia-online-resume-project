@@ -5,7 +5,7 @@ class EducationSection extends Component {
   state = {};
   render() {
     return (
-      <div className="education-section-container">
+      <div className="education-section-container snap-section">
         <div className="picture">
           <img src={EducationPic} alt="" width={300} />
         </div>

@@ -4,7 +4,7 @@ class SkillsSection extends Component {
   state = {};
   render() {
     return (
-      <div className="skills-section-container">
+      <div className="skills-section-container snap-section">
         <div className="description">
           <p>
             During the time that I studied in the university. I learnt the

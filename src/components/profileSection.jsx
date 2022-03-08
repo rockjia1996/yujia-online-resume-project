@@ -5,7 +5,7 @@ class ProfileSection extends Component {
   state = {};
   render() {
     return (
-      <div className="profile-section-container">
+      <div className="profile-section-container snap-section">
         <div className="picture">
           <img src={MyPicture} alt="" style={{ width: "100%" }} />
         </div>

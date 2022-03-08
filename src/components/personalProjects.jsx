@@ -4,7 +4,7 @@ class PersonalProjects extends Component {
   state = {};
   render() {
     return (
-      <div className="projects-section-container">
+      <div className="projects-section-container snap-section">
         <div className="project">
           <p>Mini Online Storage Frontend</p>
         </div>
