@@ -19,28 +19,28 @@ class SkillsSection extends Component {
         </div>
 
         <div className="skills">
-          <div>
+          <div className="skills-container">
             <h4>Languages</h4>
-            <p>HTML</p>
-            <p>CSS</p>
-            <p>JavaScript</p>
+            <div className="skill-button color-info">HTML</div>
+            <div className="skill-button color-info">CSS</div>
+            <div className="skill-button color-info">JavaScript</div>
           </div>
 
-          <div>
+          <div className="skills-container">
             <h4>Frameworks</h4>
-            <p>React.js</p>
-            <p>Express.js</p>
+            <div className="skill-button color-success">React.js</div>
+            <div className="skill-button color-success">Express.js</div>
           </div>
 
-          <div>
-            <h4>Backend and Database</h4>
-            <p>Node.js</p>
-            <p>Mongo DB</p>
+          <div className="skills-container">
+            <h4>Backend</h4>
+            <div className="skill-button color-danger">Node.js</div>
+            <div className="skill-button color-danger">Mongo DB</div>
           </div>
 
-          <div>
+          <div className="skills-container">
             <h4>Source Control</h4>
-            <p>Git</p>
+            <div className="skill-button color-primary">Git</div>
           </div>
         </div>
       </div>

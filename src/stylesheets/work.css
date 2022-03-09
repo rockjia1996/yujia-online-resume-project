@@ -7,6 +7,10 @@
 }
 
 .titles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   padding: 10px 10px;
   text-align: center;
@@ -15,4 +19,11 @@
 .work-description {
   width: 100%;
   padding: 10px 10px;
+}
+
+.production-button {
+  width: 300px;
+  padding: 5px 5px;
+  margin: 5px;
+  border-radius: 5px;
 }
