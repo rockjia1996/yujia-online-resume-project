@@ -7,13 +7,13 @@
 }
 
 .picture {
-  width: 45%;
+  width: 100%;
   padding: 10px 10px;
   object-fit: cover;
   text-align: center;
 }
 
-.description {
-  width: 45%;
+.education-description {
+  width: 100%;
   padding: 10px 10px;
 }

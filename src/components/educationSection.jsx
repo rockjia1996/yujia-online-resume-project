@@ -6,11 +6,7 @@ class EducationSection extends Component {
   render() {
     return (
       <div className="education-section-container snap-section">
-        <div className="picture">
-          <img src={EducationPic} alt="" width={300} />
-        </div>
-
-        <div className="description">
+        <div className="education-description">
           <h4>Education Background</h4>
           <p>
             I spent most of my teenage life in the midwest. I went to Crossroad
@@ -18,6 +14,10 @@ class EducationSection extends Component {
             Saint Louis Univerity for five years as a computer science major
             student.
           </p>
+        </div>
+
+        <div className="picture">
+          <img src={EducationPic} alt="" width={300} />
         </div>
       </div>
     );

@@ -5,7 +5,8 @@ class SkillsSection extends Component {
   render() {
     return (
       <div className="skills-section-container snap-section">
-        <div className="description">
+        <div className="skill-description">
+          <h4>Skills</h4>
           <p>
             During the time that I studied in the university. I learnt the
             basics of the Computer Science, such as data structure, alogirthm,
@@ -18,21 +19,29 @@ class SkillsSection extends Component {
         </div>
 
         <div className="skills">
-          <h3>Language</h3>
-          <p>HTML</p>
-          <p>CSS</p>
-          <p>JavaScript</p>
+          <div>
+            <h4>Languages</h4>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>JavaScript</p>
+          </div>
 
-          <h3>Frameworks</h3>
-          <p>React.js</p>
-          <p>Express.js</p>
+          <div>
+            <h4>Frameworks</h4>
+            <p>React.js</p>
+            <p>Express.js</p>
+          </div>
 
-          <h3>Backend and Database</h3>
-          <p>Node.js</p>
-          <p>Mongo DB</p>
+          <div>
+            <h4>Backend and Database</h4>
+            <p>Node.js</p>
+            <p>Mongo DB</p>
+          </div>
 
-          <h3>Source Control</h3>
-          <p>Git</p>
+          <div>
+            <h4>Source Control</h4>
+            <p>Git</p>
+          </div>
         </div>
       </div>
     );

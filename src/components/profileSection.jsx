@@ -7,14 +7,17 @@ class ProfileSection extends Component {
     return (
       <div className="profile-section-container snap-section">
         <div className="picture">
-          <img src={MyPicture} alt="" style={{ width: "100%" }} />
+          <img src={MyPicture} alt="" width={300} />
+          <p>
+            <small>Me at Some Pumpkin Farm, NJ</small>
+          </p>
         </div>
-        <div className="description">
-          <h4>About Me</h4>
+        <div className="profile-description">
+          <h4 style={{ margin: 0 }}>About Me</h4>
           <p>
             Energetic and self-motivated college graduate with web development
             industry experience. Currently seeking a full-time opportunity that
-            will learn and apply the programming and technical skills in the
+            allows me to learn and apply programming and technical skills in the
             field of web development and information technology.
           </p>
         </div>

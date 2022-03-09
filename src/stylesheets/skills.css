@@ -7,12 +7,17 @@
 }
 
 .skills {
-  width: 45%;
-  padding: 10px 10px;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   text-align: center;
+
+  padding: 10px 10px;
 }
 
-.description {
-  width: 45%;
+.skill-description {
+  width: 100%;
+  height: 50%;
   padding: 10px 10px;
 }

@@ -9,7 +9,7 @@ class Home extends Component {
   state = {};
   render() {
     return (
-      <div className="snap-container">
+      <div>
         <ProfileSection />
         <EducationSection />
         <WorkExperienceSection />
