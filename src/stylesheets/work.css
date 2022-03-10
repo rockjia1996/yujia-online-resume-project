@@ -1,9 +1,9 @@
 .work-section-container {
-  background-color: #ffe599;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: white;
 }
 
 .titles {
