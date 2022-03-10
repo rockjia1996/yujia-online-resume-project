@@ -5,13 +5,50 @@ class WorkExperienceSection extends Component {
   render() {
     return (
       <div className="work-section-container snap-section">
-        <div className="titles">
-          <h4>Work Experience</h4>
-          <div className="production-button color-success">
-            Web Maintance Intern at NSTEM
+        <div>
+          <div className="titles">
+            <h4>Work Experience</h4>
+            <div className="production-button color-success">
+              Web Maintance Intern at NSTEM
+            </div>
+            <div className="production-button color-success">
+              Web Developer Intern at NSTEM
+            </div>
           </div>
-          <div className="production-button color-success">
-            Web Developer Intern at NSTEM
+          <div>
+            <h4>Works in Production</h4>
+            <div className="production-button color-primary">
+              <a
+                href="https://www.nstem.org/chapter-development-advisor/"
+                style={{ textDecoration: "none", color: "white" }}
+              >
+                Chapter Development Advsior Page
+              </a>
+            </div>
+            <div className="production-button color-primary">
+              <a
+                href="https://www.nstem.org/the-priority-of-school-prospects/"
+                style={{ textDecoration: "none", color: "white" }}
+              >
+                The Priority of School Prospects Page
+              </a>
+            </div>
+            <div className="production-button color-primary">
+              <a
+                href="https://www.nstem.org/chapter-development-advisor-specific-tasks-usa/"
+                style={{ textDecoration: "none", color: "white" }}
+              >
+                Specific Tasks (USA) Page
+              </a>
+            </div>
+            <div className="production-button color-primary">
+              <a
+                href="https://www.nstem.org/chapter-development-advisor-specific-tasks-international/"
+                style={{ textDecoration: "none", color: "white" }}
+              >
+                Specific Task (International) Page
+              </a>
+            </div>
           </div>
         </div>
 
@@ -23,41 +60,6 @@ class WorkExperienceSection extends Component {
             various real-world technology like Wordpress. I also got to apply my
             HTML, CSS and JavaScript skills on the website redesign.
           </p>
-        </div>
-        <div>
-          <h4>Works in Production</h4>
-          <div className="production-button color-primary">
-            <a
-              href="https://www.nstem.org/chapter-development-advisor/"
-              style={{ textDecoration: "none", color: "white" }}
-            >
-              Chapter Development Advsior Page
-            </a>
-          </div>
-          <div className="production-button color-primary">
-            <a
-              href="https://www.nstem.org/the-priority-of-school-prospects/"
-              style={{ textDecoration: "none", color: "white" }}
-            >
-              The Priority of School Prospects Page
-            </a>
-          </div>
-          <div className="production-button color-primary">
-            <a
-              href="https://www.nstem.org/chapter-development-advisor-specific-tasks-usa/"
-              style={{ textDecoration: "none", color: "white" }}
-            >
-              Specific Tasks (USA) Page
-            </a>
-          </div>
-          <div className="production-button color-primary">
-            <a
-              href="https://www.nstem.org/chapter-development-advisor-specific-tasks-international/"
-              style={{ textDecoration: "none", color: "white" }}
-            >
-              Specific Task (International) Page
-            </a>
-          </div>
         </div>
       </div>
     );

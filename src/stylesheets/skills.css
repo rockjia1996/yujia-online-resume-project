@@ -37,3 +37,28 @@
   margin: 5px;
   border-radius: 5px;
 }
+
+@media screen and (min-width: 600px) {
+  .skills-section-container {
+    flex-direction: row;
+    align-items: flex-start;
+    font-size: 30px;
+  }
+
+  .skill-description {
+    width: 50%;
+    padding: 30px 30px;
+  }
+
+  .skills {
+    width: 40%;
+  }
+
+  .skill-button {
+    width: 180px;
+    padding: 10px 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+}

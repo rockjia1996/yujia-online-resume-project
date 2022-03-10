@@ -7,7 +7,6 @@
 }
 
 .picture {
-  width: 400px;
   padding: 10px 10px;
   object-fit: cover;
   text-align: center;
@@ -17,4 +16,22 @@
   width: 100%;
   padding: 10px 0px;
   font-size: medium;
+}
+
+@media screen and (min-width: 600px) {
+  .profile-section-container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .picture img {
+    width: 450px;
+  }
+
+  .profile-description {
+    width: 50%;
+    margin: 50px;
+    font-size: 30px;
+  }
 }

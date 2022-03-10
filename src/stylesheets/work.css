@@ -27,3 +27,21 @@
   margin: 5px;
   border-radius: 5px;
 }
+
+@media screen and (min-width: 600px) {
+  .work-section-container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+  }
+
+  .work-description {
+    width: 30%;
+    margin: 30px;
+  }
+
+  .production-button {
+    width: 490px;
+  }
+}

@@ -7,7 +7,6 @@
 }
 
 .picture {
-  width: 100%;
   padding: 10px 10px;
   object-fit: cover;
   text-align: center;
@@ -16,4 +15,17 @@
 .education-description {
   width: 100%;
   padding: 10px 10px;
+  font-size: medium;
+}
+
+@media screen and (min-width: 600px) {
+  .education-section-container {
+    flex-direction: row;
+  }
+
+  .education-description {
+    width: 50%;
+    margin: 50px;
+    font-size: 30px;
+  }
 }

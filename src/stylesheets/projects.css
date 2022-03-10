@@ -71,3 +71,46 @@
   margin: 5px;
   border-radius: 5px;
 }
+
+@media screen and (min-width: 700px) {
+  .projects-section-container {
+    flex-direction: row;
+    font-size: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .projects {
+    flex-direction: column;
+  }
+
+  .source-code-panel {
+    width: 40%;
+    margin: 10px;
+  }
+
+  .source-code-button {
+    width: 400px;
+    padding: 5px 5px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+
+  .card {
+    width: 450px;
+    height: 370px;
+    font-size: 25px;
+  }
+
+  .card-title {
+    height: 15%;
+  }
+
+  .card-content {
+    height: 70%;
+  }
+
+  .card-footer {
+    height: 15%;
+  }
+}
