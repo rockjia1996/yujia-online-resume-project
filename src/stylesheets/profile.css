@@ -18,7 +18,7 @@
   font-size: medium;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
   .profile-section-container {
     flex-direction: row;
     justify-content: center;

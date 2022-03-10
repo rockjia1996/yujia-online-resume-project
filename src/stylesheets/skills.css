@@ -38,7 +38,7 @@
   border-radius: 5px;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
   .skills-section-container {
     flex-direction: row;
     align-items: flex-start;
