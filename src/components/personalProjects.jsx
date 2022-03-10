@@ -4,7 +4,7 @@ class PersonalProjects extends Component {
   state = {};
   render() {
     return (
-      <div className="projects-section-container snap-section">
+      <div className="projects-section-container snap-section project-background">
         <div>
           <h4 style={{ margin: 0 }}>Personal Projects</h4>
           <div className="projects">
@@ -29,7 +29,7 @@ class PersonalProjects extends Component {
         </div>
 
         <div className="source-code-panel">
-          <p style={{ textAlign: "left" }}>
+          <p style={{ textAlign: "left", color: "white" }}>
             There are two projects that I was working on when I was offwork. By
             using these two projects, I was able to apply the new techniques
             that I learnt from my job and udemy courses. Feel free to check it

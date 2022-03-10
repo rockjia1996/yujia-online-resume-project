@@ -28,6 +28,16 @@
   border-radius: 5px;
 }
 
+/* Wavy Background */
+.work-background {
+  background-image: url("../resources/work-section-background.svg");
+  aspect-ratio: 960/300;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 @media screen and (min-width: 600px) {
   .work-section-container {
     flex-direction: row;

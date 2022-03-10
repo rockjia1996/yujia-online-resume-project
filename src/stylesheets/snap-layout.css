@@ -9,7 +9,6 @@ html {
   scroll-snap-type: y mandatory;
 }
 .snap-section {
-  border-bottom: 1px solid white;
   padding: 1rem;
   width: 100vw;
   height: 100vh;

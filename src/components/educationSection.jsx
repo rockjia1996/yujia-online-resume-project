@@ -5,7 +5,7 @@ class EducationSection extends Component {
   state = {};
   render() {
     return (
-      <div className="education-section-container snap-section">
+      <div className="education-section-container snap-section education-background">
         <div className="education-description">
           <h4>Education Background</h4>
           <p>

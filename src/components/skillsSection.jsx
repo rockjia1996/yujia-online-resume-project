@@ -4,7 +4,7 @@ class SkillsSection extends Component {
   state = {};
   render() {
     return (
-      <div className="skills-section-container snap-section">
+      <div className="skills-section-container snap-section skill-background">
         <div className="skill-description">
           <h4>Skills</h4>
           <p>

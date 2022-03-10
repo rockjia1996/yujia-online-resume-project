@@ -38,6 +38,15 @@
   border-radius: 5px;
 }
 
+/* Wavy Background */
+.skill-background {
+  background-image: url("../resources/skill-section-background.svg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 @media screen and (min-width: 700px) {
   .skills-section-container {
     flex-direction: row;
