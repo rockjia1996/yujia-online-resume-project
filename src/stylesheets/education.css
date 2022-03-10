@@ -24,9 +24,6 @@
 /* Wavy Background */
 .education-background {
   background-image: url("../resources/education-section-background.svg");
-  /*
-  aspect-ratio: 960/300;
-  */
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
