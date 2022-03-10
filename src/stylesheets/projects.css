@@ -82,7 +82,7 @@
   background-size: cover;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 900px) {
   .projects-section-container {
     flex-direction: row;
     font-size: 30px;

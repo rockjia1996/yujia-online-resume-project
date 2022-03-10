@@ -48,7 +48,7 @@
   background-size: cover;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 900px) {
   .skills-section-container {
     flex-direction: row;
     align-items: flex-start;

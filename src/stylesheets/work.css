@@ -38,7 +38,7 @@
   background-size: cover;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 900px) {
   .work-section-container {
     flex-direction: row;
     justify-content: center;
