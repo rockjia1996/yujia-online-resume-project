@@ -1,7 +1,13 @@
 import React, { Component } from "react";
 import Card from "./card";
+
 class PersonalProjects extends Component {
   state = {};
+
+  handlePageChange(url) {
+    window.open(url, "_blank");
+  }
+
   render() {
     return (
       <div className="projects-section-container snap-section project-background">
@@ -11,19 +17,29 @@ class PersonalProjects extends Component {
             <Card
               title={"Mini Online Storage"}
               content={`Mini Online Storage Project is a full-stack project. At the 
-            frontend, React.js is used as its UI framework. At the backend, 
-            server is a Node.js application that uses Express.js as its web 
-            framework and Mongo DB as its database.`}
+                frontend, React.js is used as its UI framework. At the backend, 
+                server is a Node.js application that uses Express.js as its web 
+                framework and Mongo DB as its database.`}
               footer={""}
+              handleClick={() =>
+                this.handlePageChange(
+                  "https://yujia-online-storage.herokuapp.com"
+                )
+              }
             />
 
             <Card
               title={"Personal Online Resume"}
               content={`Personal Online Resume Project is a frontend only project. The
-              project does not have a complex backend like Mini Online Storage.
-              React.js is chose as its main framework. For the styling, the
-              project mainly uses vanilia CSS.`}
+                project does not have a complex backend like Mini Online Storage.
+                React.js is chose as its main framework. For the styling, the
+                project mainly uses vanilia CSS.`}
               footer={""}
+              handleClick={() =>
+                this.handlePageChange(
+                  "https://yujia-online-resume.herokuapp.com"
+                )
+              }
             />
           </div>
         </div>

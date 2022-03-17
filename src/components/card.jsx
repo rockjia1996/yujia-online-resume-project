@@ -1,10 +1,10 @@
 import React from "react";
 
 const Card = (props) => {
-  const { title, content, footer } = props;
+  const { title, content, footer, handleClick } = props;
 
   return (
-    <div className="card">
+    <div className="card" onClick={handleClick} style={{ cursor: "pointer" }}>
       <div className="card-title">
         <h4>{title}</h4>
       </div>
