@@ -8,6 +8,7 @@ import "./stylesheets/normalize.css";
 import "./stylesheets/color.css";
 import "./stylesheets/animations.css";
 import "./stylesheets/snap-layout.css";
+import "./stylesheets/timeline.css";
 import "./stylesheets/home.css";
 import "./stylesheets/profile.css";
 import "./stylesheets/education.css";
