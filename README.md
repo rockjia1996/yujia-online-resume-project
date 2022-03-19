@@ -13,6 +13,6 @@ Take look of the deployed site! https://yujia-online-storage.herokuapp.com/ (mig
 
 Frontend Source Code: https://github.com/rockjia1996/yujia-online-storage-frontend
 
-### Mini Online Storage Backedn Source Code
+### Mini Online Storage Backend Source Code
 
 Backend Source code: https://github.com/rockjia1996/yujia-online-storage-backend
