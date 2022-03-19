@@ -1,5 +1,7 @@
 import React, { Component } from "react";
-import Card from "./card";
+import ProjectCard from "./projectCard";
+import ResumePic from "../resources/resumePic.jpg";
+import StoragePic from "../resources/storagePic.jpg";
 
 class PersonalProjects extends Component {
   state = {};
@@ -11,40 +13,38 @@ class PersonalProjects extends Component {
   render() {
     return (
       <div className="projects-section-container snap-section project-background">
-        <div>
-          <h4 style={{ margin: 0 }}>Personal Projects</h4>
-          <div className="projects">
-            <Card
-              title={"Mini Online Storage"}
-              content={`Mini Online Storage Project is a full-stack project. At the 
-                frontend, React.js is used as its UI framework. At the backend, 
-                server is a Node.js application that uses Express.js as its web 
-                framework and Mongo DB as its database.`}
-              footer={""}
-              handleClick={() =>
-                this.handlePageChange(
-                  "https://yujia-online-storage.herokuapp.com"
-                )
-              }
-            />
+        <div className="projects">
+          <ProjectCard
+            cardImage={StoragePic}
+            cardDescription={{
+              title: "Mini Online Storage",
+              content:
+                "A full-stack project. At the frontend, React.js is used as its UI framework. At the backend, server is a Node.js application that uses Express.js as its web framework and Mongo DB as its database.",
+            }}
+            cardFooter={[
+              "https://github.com/rockjia1996/yujia-online-storage-frontend",
+              "https://yujia-online-storage.herokuapp.com/",
+              "",
+            ]}
+          />
 
-            <Card
-              title={"Personal Online Resume"}
-              content={`Personal Online Resume Project is a frontend only project. The
-                project does not have a complex backend like Mini Online Storage.
-                React.js is chose as its main framework. For the styling, the
-                project mainly uses vanilia CSS.`}
-              footer={""}
-              handleClick={() =>
-                this.handlePageChange(
-                  "https://yujia-online-resume.herokuapp.com"
-                )
-              }
-            />
-          </div>
+          <ProjectCard
+            cardImage={ResumePic}
+            cardDescription={{
+              title: "Personal Online Resume",
+              content:
+                "A full-stack project. At the frontend, React.js is used as its UI framework. At the backend, server is a Node.js application that uses Express.js as its web framework and Mongo DB as its database.",
+            }}
+            cardFooter={[
+              "https://github.com/rockjia1996/yujia-online-resume-project",
+              "https://yujia-online-resume.herokuapp.com/",
+              "",
+            ]}
+          />
         </div>
 
-        <div className="source-code-panel">
+        <div className="project-description">
+          <h4 style={{ margin: 0, color: "white" }}>Personal Projects</h4>
           <p style={{ textAlign: "left", color: "white" }}>
             There are two projects that I was working on when I was offwork. By
             using these two projects, I was able to apply the new techniques
@@ -52,33 +52,6 @@ class PersonalProjects extends Component {
             out!. If you are interested in the source code, you can find the
             source on my Github repo.
           </p>
-          <div className="source-code-button color-success">
-            <a
-              href="https://github.com/rockjia1996/yujia-online-storage-frontend"
-              style={{ textDecoration: "none", color: "black" }}
-              target="_blank"
-            >
-              Mini Online Storage (frontend)
-            </a>
-          </div>
-          <div className="source-code-button color-success">
-            <a
-              href="https://github.com/rockjia1996/yujia-online-storage-backend"
-              style={{ textDecoration: "none", color: "black" }}
-              target="_blank"
-            >
-              Mini Online Storage (backend)
-            </a>
-          </div>
-          <div className="source-code-button color-success">
-            <a
-              href="https://github.com/rockjia1996/yujia-online-resume-project"
-              style={{ textDecoration: "none", color: "black" }}
-              target="_blank"
-            >
-              Personal Online Resume
-            </a>
-          </div>
         </div>
       </div>
     );
